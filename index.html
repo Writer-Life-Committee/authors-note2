@@ -1,115 +1,56 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FVX75SD3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    gtag('config', 'G-X2FVX75SD3',{
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FVX75SD3"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X2FVX75SD3',{
       'linker': {
         'domains': ['authors-note.stores.jp','genkoryo.com'] // 
       }
-    });
-  </script>
-  <!-- End Google Tag Manager -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <title>作家の手帖 | じぶんの「つづき」を書こう。</title>
+      });
+    </script>
+    <!-- End Google Tag Manager -->
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <style type="text/css">
-  body {
-    font-family: "BIZ UDPGothic" ;
-  }
-  figcaption {
-    font-size: x-small;
-    font-style: italic;
-    padding: 5px;
-    text-align: center;
-  }
-  .bs-component + .bs-component {
-    margin-top: 1rem;
-  }
-  @media (min-width: 768px) {
-    .bs-docs-section {
-      margin-top: 8em;
-    }
-    .bs-component {
-      position: relative;
-    }
-    .bs-component .modal {
-      position: relative;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: auto;
-      z-index: 1;
-      display: block;
-    }
-    .bs-component .modal-dialog {
-      width: 90%;
-    }
-    .bs-component .popover {
-      position: relative;
-      display: inline-block;
-      width: 220px;
-      margin: 20px;
-    }
-    .nav-tabs {
-      margin-bottom: 15px;
-    }
-    .progress {
-      margin-bottom: 10px;
-    }
-  }
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+    <title>作家の手帖 | じぶんの「つづき」を書こう。</title>
 
-  </style>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  
 </head>
 <body>
+  <!-- External Navbar Container -->
+  <div id="navbarContainer"></div>
 
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="./">
-        作家の手帖
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              リーガル
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1X4TF97khL4fjKeoRBK-j2ORPqA3kuyu-/view?usp=sharing">01 文筆生活向上委員会 団体規約</a>
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1WsepWk4eHWBkzfZl8YbPYT5Vbz7ohp3_/view?usp=sharing">02 業務委託共通規約（仕様書項目、個人情報保護特約を含む）</a>
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1BKshtFNewRM5ssBs4eacLcnWLxuYOwWS/view?usp=sharing">03 業務委託仕様書（執筆者向けひな型・記入例）</a>
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1_Mz_LrDtiFTLnys7hQL_QQ0ixjgT8O4b/view?usp=sharing">04 「作家の手帖」発注書（テンプレート）</a>
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1sdMW6EdLK1p4aA9PHed0taeW_L3otoYH/view?usp=sharing">05 「作家の手帖」参加規約</a>
-              <a class="dropdown-item" href="https://drive.google.com/file/d/1ZODNOIVU4Qmu_jOpr68ruonYXJYiKA05/view?usp=sharing">06 「作家の手帖」プライバシーポリシー
-              </a>
-            </div>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="https://writer-life-committee.github.io/authors-note/faq.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://writer-life-committee.github.io/authors-note/">旧ウェブサイト</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+  <!-- jQueryを完全なバージョンで読み込む -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!-- JavaScript to load external navbar -->
+  <script>
+      $(function() {
+          // Load external navbar into the container
+          $.ajax({
+              url: 'navbar.html',
+              success: function(data) {
+                  $('#navbarContainer').html(data);
+              }
+          });
+      });
+  </script>
 
 <div class="container">
 
@@ -127,7 +68,7 @@
     </div>
   </div>
 
-  <section style="background-color: #eee; margin-bottom:50px;">
+  <section style="margin-bottom:50px;">
     <div class="container py-5">
   
       <div class="row d-flex justify-content-center">
@@ -666,18 +607,7 @@
     </div>
   </section>
   
-
 </div>
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="./js/bootstrap.min.js"></script>
-
-<script type="text/javascript">
-  $('.bs-component [data-toggle="popover"]').popover();
-  $('.bs-component [data-toggle="tooltip"]').tooltip();
-</script>
 
 <!-- footer -->
 <footer class="small">
