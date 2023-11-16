@@ -1,0 +1,383 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2FVX75SD3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-X2FVX75SD3',{
+    'linker': {
+      'domains': ['authors-note.stores.jp','genkoryo.com'] // 
+    }
+    });
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+    <title>作家の手帖 | じぶんの「つづき」を書こう。</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  
+</head>
+<body>
+  <!-- External Navbar Container -->
+  <div id="navbarContainer"></div>
+
+  <!-- Main content here -->
+
+  <!-- jQueryを完全なバージョンで読み込む -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  
+  <!-- JavaScript to load external navbar -->
+  <script>
+      $(function() {
+          // Load external navbar into the container
+          $.ajax({
+              url: 'navbar.html',
+              success: function(data) {
+                  $('#navbarContainer').html(data);
+              }
+          });
+      });
+  </script>
+
+  <div class="container">
+    <div class="page-header" id="banner" style="padding-top: 5rem">
+      <div class="row my-4">
+        <div class="col-12">
+          <h1 class="display-4">作家の手帖|FAQ</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section style="margin-bottom:50px;">
+    <div class="container py-5">
+  
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+          
+          <!-- Q.「作家の手帖」とは何ですか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q.「作家の手帖」とは何ですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    「作家の手帖」は「もの書き」が生活に役立つ知識を持ち寄るメディアです。詳しくは <a href="https://genkoryo.com/">Topページ（https://genkoryo.com/）</a> をご覧ください。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+           
+          <!-- Q.どんなメディアですか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q.どんなメディアですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/ozawa.png"
+                  alt="小澤アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="mb-0">
+                    「作家の手帖」創刊に向けた「準備号」を不定期に企画・制作しています。<br>
+                    2021年に「準備1号」をリリースし、2023年から「準備2号」が始まりました。「創刊号」を刊行したら、解散します。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. 「準備2号」はどんな内容ですか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. 「準備2号」はどんな内容ですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    「無料で読まれるテキストにかかるコスト」を中心テーマとして、さまざまな企画を行う予定です。直近ではDiscordチャンネル「作家の手帖」を運営しながら、勉強会・ワークショップを行う予定です。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. 「準備1号」はどこで読めますか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. 「準備1号」はどこで読めますか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/ozawa.png"
+                  alt="小澤アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="mb-0">
+                    有料講読チケットをお買い求めいただいた方には、「準備1号」の掲載テキスト8作と、勉強会のアーカイブ動画へのアクセス権限が発行されます。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. チケットを買うと何ができますか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q.チケットを買うと何ができますか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                  <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    チケットをお買い求めいただいた方には、次の3つをお渡しします。<br><br>
+                    <b>■1.完成稿へのアクセス権</b><br>
+                    Google Driveの所定のフォルダに対する閲覧権限を発行します。<br>
+                    URLが収録されています。「準備2号」の記事も追加予定です。<br>
+                    今回お買い求めの方は、追加費用なしで、すべての記事をそのまま閲覧できます。
+                    <br><br>
+                    <b>■2.Discordチャンネル（有料ゾーン）へのアクセス権</b><br>
+                    Discordチャンネル「文筆生活向上委員会」の有料ゾーンへ招待いたします。<br>
+                    購読者間で情報交換する場としてお使いいただけます。<br>
+                    勉強会・ワークショップも開催します。
+                    <br><br>
+                    <b>■3.勉強会・ワークショップの参加</b><br>
+                    Discordチャンネル（有料ゾーン）では、「原稿料」にまつわる勉強会・ワークショップを開催します。<br>
+                    有料購読者の方なら、追加費用なしで参加できます。<br>
+                    なお、一般観覧チケットを販売することもあります。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. だれが寄稿していますか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. だれが寄稿していますか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/ozawa.png"
+                  alt="小澤アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="mb-0">
+                    「準備1号」の執筆者・制作スタッフは、企画書・募集要項を公表し、Googleフォームで参加を募りました。両編集長による選考のうえ、8名の方にご寄稿いただきました。<br>
+                    執筆者のみなさまには、両編集長から着手金を支払い、業務委託契約書を結ぶ試みにもお付き合いいただきました。<br>
+                    詳しくは、<a href="https://genkoryo.com/">準備1号のページ（https://genkoryo.com/）</a> をご覧ください。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. 勉強会はどんな内容ですか-->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. 勉強会はどんな内容ですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    勉強会はオンライン配信され、購読者向けにアーカイブしますが、公開されません。<br>
+                    ご参考までに、「勉強会vol.1」は、「夏休み特番！真夏のOne Last Summer 8月祭 in 2021　～作家と原稿料をとことん語るぞスペシャル!!～」と題して行われました。<br>
+                    開催概要は、<a href="https://genkoryo.com/">準備1号のページ（https://genkoryo.com/）</a> をご覧ください。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. チケットはいつまで有効ですか -->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. チケットはいつまで有効ですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/ozawa.png"
+                  alt="小澤アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="mb-0">
+                    特別な事情や大きなトラブルがない限り、Google Driveへのアクセス権限はいつまでもお持ちいただけます。PDF/epubの保有期限も設定しません。<br>
+                    勉強会は本番1回のみですが、アーカイブは購読者限定で閲覧できるようにします。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Q. 印刷書籍は売らないのですか-->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. 印刷書籍は売らないのですか</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    執筆者の原稿料や制作スタッフの報酬をなるべく多く支払うため、印刷書籍の制作予定はしばらくありません。<br>
+                    売上が好調となり、一定の購読が見込めそうで、読者のみなさまからのご要望も根強いと分かったら、ブックデザイナーを起用し、印刷書籍の制作を行いたいと考えています。<br><br>
+
+                    「こんな本がほしい」というアイデアをお持ちの方は、編集長ふたりまでお気軽にご要望ください。<br>
+                    <small>writer.life.committee[at]gmail.com</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q.この企画について取材・報道したいです。-->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. この企画について取材・報道したいです。</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/ozawa.png"
+                  alt="小澤アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                  <p class="mb-0">
+                    こちらまでお気軽にお問い合わせください。<br>
+                    <small>writer.life.committee[at]gmail.com</small><br><br>
+
+                    次のような情報を前もってお知らせいただけると大変助かります。<br><br>
+                    <ul>
+                    <li>お名前</li>
+                    <li>ご所属</li>
+                    <li>ご希望の取材方式（メール／対面）</li>
+                    <li>ご都合のつく日程候補</li>
+                    <li>取材内容のご想定（大まかでかまいません）</li>
+                    </ul>
+                    ※編集長ふたりは、平日日中は稼業で働いています。お返事には数日かかることもあります。ご了承ください。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q. 執筆したい、登壇したい、制作に加わりたいです。-->
+          <div class="card" id="chat1" style="border-radius: 15px; margin-bottom:50px;">
+            <div
+              class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+              style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+              <i class="fas"></i>
+              <p class="mb-0 fw-bold fs-3">Q. 執筆したい、登壇したい、制作に加わりたいです。</p>
+              <i class="fas"></i>
+            </div>
+            
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-start mb-4" >
+                <img src="img/kasai.png"
+                  alt="笠井アイコン" style="width: 45px; height: 100%; ">
+                <div class="p-3 ms-3 border" style="border-radius: 15px; background-color: #fbfbfb;">
+                  <p class="mb-0">
+                    「準備1号」の協力募集は締め切りました。ご応募ありがとうございました。<br><br>
+
+                    「準備2号」の協力募集は実施是非から未定ですが（2023年11月時点）、今後の執筆・登壇・制作に関わりたい方は、<a href="https://docs.google.com/forms/d/e/1FAIpQLSddK7-cYI9zzO6wMjTwGqHf9dcVSErruk5bslFF4HAC5QGtbA/viewform">Googleフォーム</a>からご応募ください（ご期待に添えないことがあります。予めご了承ください）。<br><br>
+
+                    原稿料について言いたいことがある、だれかに聞いてほしい体験をしたという方は、「体験談を投稿」することもできます。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="small">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center copyright">
+          &copy; 2021 文筆生活向上委員会 All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
