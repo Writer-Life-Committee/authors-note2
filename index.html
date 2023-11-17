@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -31,33 +30,16 @@
   
 </head>
 <body>
-  <!-- External Navbar Container -->
-  <div id="navbarContainer"></div>
 
-  <!-- jQueryを完全なバージョンで読み込む -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  
-  <!-- JavaScript to load external navbar -->
-  <script>
-      $(function() {
-          // Load external navbar into the container
-          $.ajax({
-              url: 'navbar.html',
-              success: function(data) {
-                  $('#navbarContainer').html(data);
-              }
-          });
-      });
-  </script>
+<!-- Navbar -->
+<div id="navbarContainer"></div>
 
 <div class="container">
 
   <div class="page-header" id="banner" style="padding-top: 5rem">
     <div class="row my-4">
       <div class="col-12">
-        <h1 class="display-3">作家の手帖とは</h1>
+        <h1 class="display-4">作家の手帖とは</h1>
         <p class="lead">
           【対談】「作家」の理想も、生活も守りたい――表現技法としての「原稿料」
         </p>
@@ -610,15 +592,31 @@
 </div>
 
 <!-- footer -->
-<footer class="small">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center copyright">
-        &copy; 2021 文筆生活向上委員会 All rights reserved.
-      </div>
-    </div>
-  </div>
-</footer>
+<div id="footerContainer"></div>
+
+<!-- jQueryを完全なバージョンで読み込む -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript to load external navbar -->
+<script>
+    $(function() {
+        // Load external navbar into the container
+        $.ajax({
+            url: 'navbar.html',
+            success: function(data) {
+                $('#navbarContainer').html(data);
+            }
+        });
+        $.ajax({
+            url: 'footer.html',
+            success: function(data) {
+                $('#footerContainer').html(data);
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
