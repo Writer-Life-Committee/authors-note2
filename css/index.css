@@ -122,16 +122,16 @@ figcaption {
   color: #bfbfbf;
 }
 
-/* ページTOPに戻る */
-.pagetop{
-  display: none;
-  position: fixed;
-  right: 15px;
-  bottom: 60px;
-}
-
 /* footer固定 */
 footer {
   background-color: #f8f9fa; /* フッターの背景色を指定 */
   border-top: 1px solid #dee2e6; /* フッターの上部に境界線を追加 */
+}
+
+/* ページTOPに戻る */
+.pagetop{
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 5px;
 }
