@@ -135,3 +135,8 @@ footer {
   right: 20px;
   bottom: 5px;
 }
+
+.box-config ul, ol {
+  padding-left: 2em;
+  margin-left: 2em;
+}
