@@ -140,3 +140,8 @@ footer {
   padding-left: 2em;
   margin-left: 2em;
 }
+
+ul#wide li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
